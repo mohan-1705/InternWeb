@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Option</title>
+  <link rel="stylesheet" href="style1.css">
+  <style>
+    body {
+      background: url('file:///C:/Users/mohan/Downloads/background1.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(8, 8, 8, 0.5);
+    }
+    header h1 {
+      color: white;
+    }
+    h2 {
+      color: white;
+    }
+    main {
+      padding: 20px;
+    }
+    #payment {
+      background-color:rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    form div {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color:black; 
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #fff;
+      color:black;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      display: block;
+      margin: 20px auto 0;
+    }
+    button:hover {
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Payment Option</h1>
+  </header>
+  <main>
+    <section id="payment">
+      <h2>Complete Your Purchase</h2>
+      <form>
+        <div>
+          <label for="name-on-card">Name on Card:</label>
+          <input type="text" id="name-on-card" required>
+        </div>
+        <div>
+          <label for="card-number">Card Number:</label>
+          <input type="text" id="card-number" required>
+        </div>
+        <div>
+          <label for="expiry-date">Expiry Date:</label>
+          <input type="text" id="expiry-date" placeholder="MM/YY" required>
+        </div>
+        <div>
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" required>
+        </div>
+        <div>
+          <label for="billing-address">Billing Address:</label>
+          <input type="text" id="billing-address" required>
+        </div>
+        <div>
+          <label for="city">City:</label>
+          <input type="text" id="city" required>
+        </div>
+        <div>
+          <label for="state">State:</label>
+          <input type="text" id="state" required>
+        </div>
+        <div>
+          <label for="pin-code">Pin-Code:</label>
+          <input type="text" id="pin-code" required>
+        </div>
+        <div>
+          <label for="country">Country:</label>
+          <input type="text" id="country" required>
+        </div>
+        <button type="submit">Pay Now</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
